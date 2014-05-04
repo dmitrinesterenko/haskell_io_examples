@@ -9,4 +9,4 @@ bmiTell weight height
 main = do 
 	[weight,height] <- getArgs
 	let quip = bmiTell (read weight :: Float) (read height :: Float)
-	putStrLn (show quip)  
+	putStrLn quip  
